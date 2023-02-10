@@ -18,8 +18,7 @@ public class Troco {
 		
 	// definindo os centavos do troco (parte fracionária)
 		double vlr, ct;
-		int i;
-		
+		int i;		
 		
 		double centavos[] = { 0.25, 0.10, 0.5, 0.1 };
 		
@@ -35,7 +34,7 @@ public class Troco {
 				}
 				i = i + 1; // próximo centavo
 			}
-				
+				System.out.println(result);
 			}
 	}
 
